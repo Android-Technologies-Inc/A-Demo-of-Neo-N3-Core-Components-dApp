@@ -160,7 +160,7 @@ In the demo, we will play the role of four distinct network participants to demo
 - An accommodation agency that will verify credentials and issue an access key
 - An IoT-enabled smart door lock that will allow entry to the accommodation after verifying the access key
 
-![](IMAGE\reservation.png)
+![Reservation](IMAGE/reservation.png)
 
 In the following sections we will walk through the reservation process and explain the related codes behind.
 
