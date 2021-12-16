@@ -1,0 +1,27 @@
+/* 
+Copyright (c) 2019 Swisscom Blockchain AG
+Licensed under MIT License
+*/
+
+.PassportReqContainer {
+    padding-bottom: 80px;
+}
+
+.CredentialIssued {
+    color: green;
+    cursor: default;
+}
+
+.ReqDenied {
+    color: red;
+    cursor: default;
+}
+
+.RequestsPaper {
+    width: fit-content;
+    margin-top: 40px;
+}
+
+.ActionButtonLeft {
+    margin-right: 5px !important;
+}

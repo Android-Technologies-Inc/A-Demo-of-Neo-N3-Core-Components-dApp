@@ -1,0 +1,64 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cityofzion/neon-js": "^5.0.0-next.11",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@neo-one/client": "^1.1.2",
+    "@neo-one/client-browserify": "^1.1.2",
+    "@neo-one/client-common": "^1.1.2",
+    "@neo-one/react": "^1.1.0",
+    "@neo-one/react-core": "^1.1.2",
+    "@sbc/seraph-id-sdk": "file:../../seraph-id-sdk/lib",
+    "@types/jest": "24.0.12",
+    "@types/node": "^11.13.8",
+    "@types/react": "16.8.15",
+    "@types/react-dom": "16.8.4",
+    "@types/react-redux": "^7.0.8",
+    "@types/react-router-dom": "^4.3.3",
+    "@types/uuid": "^3.4.4",
+    "antd": "^4.6.1",
+    "axios": "^0.21.1",
+    "cors-anywhere": "0.4.4",
+    "g": "^2.0.1",
+    "loglevel-plugin-prefix": "^0.8.4",
+    "module-name": "^0.0.1-security",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-responsive": "^7.0.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^4.0.3",
+    "secure-random": "^1.1.2",
+    "typescript": "^3.5.2",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-responsive": "^3.0.3"
+  }
+}

@@ -1,0 +1,36 @@
+/* 
+Copyright (c) 2019 Swisscom Blockchain AG
+Licensed under MIT License
+*/
+
+.Schemas-Button {
+  background-color: green;
+}
+
+.ShowCodeSection {
+  display: flex;
+}
+
+.CodeButton {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  margin-bottom: 10px !important;
+  background-color:   rgba(88, 191, 0, 0.09) !important; 
+}
+
+.CodeButton:hover {
+    background-color: rgba(88, 191, 0, 0.2) !important;
+}
+
+.DialogContent { 
+  background-color: black;
+  color: green;
+}
+
+.DialogCodeContainer {
+  padding: 30px !important;
+}
+
+.DialogContentPadding {
+  margin: 6px !important;
+}

@@ -1,0 +1,62 @@
+/* 
+Copyright (c) 2019 Swisscom Blockchain AG
+Licensed under MIT License
+*/
+
+.HelpPageContainer {
+    background-color: black;
+    min-height: 100vh;
+    box-sizing: border-box;
+    color: white;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.DashboardLink {
+    text-decoration: none;
+}
+
+.SeraphLogo {
+    height: 300px;
+}
+
+.NeoLogo {
+    height: 35px;
+    margin-bottom: -7px;
+}
+
+@media screen and (max-width: 595px) {
+    .SeraphLogo {
+        height: 150px;
+    }
+
+}
+
+.DemoTitle {
+    font-weight: 300;
+}
+
+.HelpText {
+    text-align: justify;
+    color: white !important;
+
+}
+
+.PageActions {
+    margin-top: 35px;
+}
+
+.AccentKeyWord {
+    color: #58BF00;
+}
+
+.DemoInstructionItem {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.DemoInstructionsIcons {
+    text-align: left !important;
+    color: white !important;
+}
