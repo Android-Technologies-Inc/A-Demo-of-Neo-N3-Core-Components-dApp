@@ -30,7 +30,7 @@ As shown in above figure, this demo involves the following major components:
 
 ## Starting the dApp demo
 
-The accommodation [Dapp](https://github.com/bettybao1209/Neo-ID) built on Neo blockchain is designed for the following usage scenario:
+The accommodation [Dapp](Neo-ID) built on Neo blockchain is designed for the following usage scenario:
 
 _Oliver_ is looking for an accommodation. To make the reservation, the dApp requires Oliver to identify himself as an individual. Fortunately for Oliver, his _Government_ has recently decided to implement a digital version of the national ID with the help of the Neo blockchain. Oliver needs to apply for a digital ID by presenting his physical ID to a local authority. At the moment of booking, Oliver can identify himself to the dApp with his digital Passport. Once the identity is verified, the dApp issues an access key credential to Oliver. Among the other things, the access key contains a code that gives access to an automatic door to enter the accommodation. When Oliver arrives at his accommodation, he displays the booking confirmation to the _Door Lock_, an automatic door with a IoT device capable to verify Oliver's claim. Once the booking is verified, Oliver is finally able to enter the accommodation.
 
@@ -42,7 +42,7 @@ Now let's initialize the demo.
 
 - [ ] Set up a private chain. Refer to [here](https://docs.neo.org/docs/en-us/node/cli/setup.html).
 
-- [ ] Deploy the contracts [seraph-id-smart-contracts](https://github.com/neo-ngd/seraph-id-smart-contracts) and [PriceFeedsService](https://github.com/bettybao1209/PriceFeedsService). Refer to [here](https://docs.neo.org/docs/zh-cn/develop/deploy/deploy.html).
+- [ ] Deploy the contracts [seraph-id-smart-contracts](seraph-id-smart-contracts) and [PriceFeedsService](PriceFeedsService). Refer to [here](https://docs.neo.org/docs/zh-cn/develop/deploy/deploy.html).
 
 - [ ] Deploy [NeoFS node](https://github.com/nspcc-dev/neofs-node)
 
