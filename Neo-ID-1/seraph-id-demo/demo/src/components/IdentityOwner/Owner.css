@@ -1,0 +1,56 @@
+/* 
+Copyright (c) 2019 Swisscom Blockchain AG
+Licensed under MIT License
+*/
+
+.OwnerIcon {
+    font-size: 40px !important;
+}
+
+.AgentStatusHelp {
+    text-align: end;   
+}
+
+.OwnerGridContainer {
+    height: 70vh;
+    text-align: center;
+}
+
+
+.OwnerGridItem {
+    padding: 30px 20px !important;
+}
+
+@media screen and (max-height: 950px) {
+
+    .OwnerGridItem {
+        padding-top: 5px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .OwnerGridContainer {
+        text-align: center;
+        height: fit-content;
+    }
+    
+    .OwnerGridItem {
+        padding: 20px 10px !important;
+    }
+}
+
+.ResultIcon {
+    font-size: 60px !important;
+    color: rgba(0,0,0,0.65);
+}
+
+@media screen and (max-height: 900px) {
+    .DIDSuccess {
+        margin-top: 15px;
+    }
+}
+
+.JSONLevel {
+    padding-left: 30px;
+}

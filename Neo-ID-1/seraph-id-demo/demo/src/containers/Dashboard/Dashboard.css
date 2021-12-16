@@ -1,0 +1,96 @@
+/* 
+Copyright (c) 2019 Swisscom Blockchain AG
+Licensed under MIT License
+*/
+
+body {
+    background-color: rgba(0,0,0, 0.85);
+}
+
+.DashboardContainer {
+    padding-bottom: 107px;
+}
+
+.GridContainer {
+    height: 85vh;
+}
+
+.GridItem {
+    height: 100%;
+}
+
+.OwnerAgentPaper {
+    height: calc(100% - 20px);
+    margin: 20px 0 20px 20px;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 10px !important;
+}
+
+.AgentContainer {
+    padding: 30px 20px !important;
+    text-align: center;
+}
+
+.AgentCardHeader {
+    background-color: rgb(210,210,210); 
+    padding: 0 16px !important;
+    border-radius: 10px 10px 0px 0px;
+}
+
+@media screen and (max-height: 1000px) {
+
+    .AgentContainer {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .AgentCardHeader {
+        height: 62px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .OwnerAgentPaper {
+        margin: 20px 20px 0 20px;
+        height: min-content;
+    }
+
+    .GridItem {
+        height: fit-content;
+    }
+
+    .LandlordSection {
+        margin-bottom: 90px !important;
+    }
+
+    .AgentContainer {
+        padding: 20px 10px !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .LandlordSection {
+        margin-bottom: 120px !important;
+    }
+}
+
+.SecondaryAgentPaper {
+    height: calc(33.3% - 20px);
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 10px !important;
+}
+
+.AgentCardTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SmartContractButton {
+    margin-top: 0.65em;
+}
+
+.ButtonLink {
+    text-decoration: none;
+}
+

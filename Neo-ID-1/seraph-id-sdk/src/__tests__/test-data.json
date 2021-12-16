@@ -1,0 +1,35 @@
+{
+  "neoRpcUrl": "http://localhost:10332",
+  "magic":5195086,
+  "neoscanUrl": "http://localhost:4000/api/main_net",
+  "network": "PrivateNet",
+  "issuerScriptHash": "0x29f2b0b38bd5f406e57408efd8911d28ac219212",
+  "issuerName": "SeraphID Issuer",
+  "issuerDID": "did:neoid:priv:0x29f2b0b38bd5f406e57408efd8911d28ac219212",
+  "issuerPublicKeys": ["0205651e30690e8bc3b9a1ea86ea07dc83584200d80700de28ddd447000721eb95"],
+  "issuerPrivateKey": "KxhEtLez1iqviseqxRVmnfJC9HK8GU4Jss1XrrMAzcpHpv8NvFqJ",
+  "existingSchema": {
+    "name": "TestSchema",
+    "attributes": [
+      "firstName",
+      "lastName",
+      "age"
+    ],
+    "revokable": true
+  },
+  "claimAttributes": {
+    "firstName": "Betty",
+    "lastName": "Bao",
+    "age": 30
+  },
+  "rotName": "SeraphID Trust Anchor",
+  "rotDID": "did:neoid:priv:0x0c1728dd6e0e662570819e68c1db4ef88ce4cbd9",
+  "rotPrivateKey": "L56bTctBUZyWjzDkywu8Ndr7GXJ5BneeGK7dZ8xFUZw9aRUM3oST",
+  "rotScriptHash": "0x0c1728dd6e0e662570819e68c1db4ef88ce4cbd9",
+  "walletName": "TestWallet",
+  "walletPassword": "1111",
+  "walletOwnerPrivateKey": "L3gepiWZPJts7ZjcMwXVWpuPrJLsR21azWpfCgBihE8Lu9f3t2LZ",
+  "ownerDID": "did:neoid:priv:NMafCoRYgshGKsjE4KCYv5BcHCytsvaLgZ",
+  "timeToWaitForBlockConfirmation": 15000,
+  "addedAdminKey": "022d08ee818d8efa5193b5874909536a77fa2772cf1bfe5c2746523c3abc61f33c"
+}

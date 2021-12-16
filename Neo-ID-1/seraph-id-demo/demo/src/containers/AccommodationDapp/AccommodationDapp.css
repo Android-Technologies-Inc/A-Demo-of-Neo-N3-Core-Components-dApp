@@ -1,0 +1,25 @@
+/* 
+Copyright (c) 2019 Swisscom Blockchain AG
+Licensed under MIT License
+*/
+
+.AgencyLogo {
+    font-size: 45px !important;
+}
+
+.NavBarTypography {
+    flex-grow: 1;
+}
+
+.AgencyPageContent {
+    text-align: center;
+}
+
+.AgencyPageContainer {
+    background-color: #ffefe2;
+    min-height: calc(100vh - 69px);
+}
+
+.PageContainer {
+    margin: 15% 30px 0 30px;
+}

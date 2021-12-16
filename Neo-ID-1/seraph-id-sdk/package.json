@@ -1,0 +1,60 @@
+{
+  "name": "@sbc/seraph-id-sdk",
+  "version": "3.0.1",
+  "description": "Seraph ID SDK",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --verbose false --forceExit --config jestconfig.json --env=node",
+    "build": "tsc -b",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "pretty": "prettier --write --loglevel=warn \"**/{src,__{tests,integration}__}/**/*.ts\"",
+    "precommit": "yarn lint && yarn pretty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swisscom-blockchain/seraph-id-sdk.git"
+  },
+  "keywords": [
+    "seraph-id",
+    "seraph",
+    "seraph",
+    "neo",
+    "self-sovereign",
+    "identity",
+    "id",
+    "did"
+  ],
+  "author": "Swisscom Blockchain AG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swisscom-blockchain/seraph-id-sdk/issues"
+  },
+  "homepage": "https://github.com/swisscom-blockchain/seraph-id-sdk#readme",
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.1",
+    "@types/jest": "^26.0.2",
+    "crypto-js": "^3.1.9-1",
+    "jest": "^27.0.4",
+    "prettier": "^1.18.2",
+    "ts-jest": "^27.0.3",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.4"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "@cityofzion/neon-js": "^5.0.0-next.11",
+    "util": "^0.12.3"
+  },
+  "resolutions": {
+    "crypto-js": "4.0.0",
+    "**/crypto-js": "4.0.0"
+  },
+  "peerDependencies": {
+    "bignumber.js": "^9.0.1"
+  }
+}
