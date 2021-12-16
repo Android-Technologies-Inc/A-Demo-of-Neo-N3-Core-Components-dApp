@@ -40,7 +40,7 @@ Now let's initialize the demo.
 
 - [ ] Install the Neo node with the plugins [RpcServer](https://github.com/neo-project/neo-modules/releases/download/v3.0.0-rc3/RpcServer.zip) and [OracleService](https://github.com/neo-project/neo-modules/releases/download/v3.0.0-rc3/OracleService.zip).
 
-- [ ] Set up a private chain. Refer to [here](https://docs.neo.org/docs/en-us/node/cli/setup.html).
+- [ ] Set up a private chain. Refer to [here](https://docs.neo.org/docs/en-us/develop/network/private-chain/solo.html).
 
 - [ ] Deploy the contracts [seraph-id-smart-contracts](seraph-id-smart-contracts) and [PriceFeedsService](PriceFeedsService). Refer to [here](https://docs.neo.org/docs/zh-cn/develop/deploy/deploy.html).
 
