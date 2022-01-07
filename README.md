@@ -42,7 +42,7 @@ Now let's initialize the demo.
 
 - [ ] Set up a private chain. Refer to [here](https://docs.neo.org/docs/en-us/develop/network/private-chain/solo.html).
 
-- [ ] Deploy the contracts [seraph-id-smart-contracts](seraph-id-smart-contracts) and [PriceFeedsService](PriceFeedsService). Refer to [here](https://docs.neo.org/docs/zh-cn/develop/deploy/deploy.html).
+- [ ] Deploy the contracts [seraph-id-smart-contracts](https://github.com/neo-ngd/seraph-id-smart-contracts) and [PriceFeedsService](https://github.com/bettybao1209/PriceFeedsService). Refer to [here](https://docs.neo.org/docs/zh-cn/develop/deploy/deploy.html).
 
 - [ ] Deploy [NeoFS node](https://github.com/nspcc-dev/neofs-node)
 
