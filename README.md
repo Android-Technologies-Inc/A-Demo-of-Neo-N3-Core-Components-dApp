@@ -60,7 +60,7 @@ Now let's initialize the demo.
 
 ### Building the dApp
 
-Get the source code of the dapp demo from [Github](https://github.com/bettybao1209/Neo-ID).
+Get the source code of the dapp demo from [seraph-id-sdk](https://github.com/neo-ngd/seraph-id-sdk) and [seraph-id-demo](https://github.com/neo-ngd/seraph-id-demo).
 
 According to your private chain settings, modify the necessary parameters in the ` seraph-id-sdk/src/__tests__/test-data.json` file:
 
